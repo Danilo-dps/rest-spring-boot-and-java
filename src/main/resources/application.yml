@@ -13,3 +13,8 @@ spring:
         show-sql: false
   flyway:
     baseline-on-migrate: true
+
+springdoc:
+  pathsToMatch: /api/**/v1/**
+  swagger-ui:
+    use-root-path: true
